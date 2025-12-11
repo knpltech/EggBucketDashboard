@@ -7,6 +7,7 @@ import CashPayment from "./pages/CashPayment";
 import DigitalPayment from "./pages/DigitalPayment";
 import OutletsPage from "./pages/Outlets";
 import Users from "./pages/Users";
+import AddDistributor from "./pages/AddDistributor";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/digital-payment" element={<DigitalPayment />} />
         <Route path="/outlets" element={<OutletsPage />} />
         <Route path="/users" element={<Users />} />
+        <Route path="/add-distributor" element={<AddDistributor />} />
       </Routes>
     </BrowserRouter>
   );
